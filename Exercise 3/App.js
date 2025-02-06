@@ -23,7 +23,7 @@ export default function App() {
     const [mySound, setMySound] = useState();
     const [{ x, y, z }, setData] = useState({ x: 0, y: 0, z: 0 });
     const [shakeDetected, setShakeDetected] = useState(false);
-    
+
     async function playSound() {
         try {
             const soundfile = require('./shake1.wav');
